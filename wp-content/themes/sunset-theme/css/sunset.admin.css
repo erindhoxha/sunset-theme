@@ -1,0 +1,39 @@
+/*
+
+@package sunset-theme
+
+======================
+ADMIN PANEL CSS
+======================
+
+*/
+
+.sunset-general-form,
+.sunset-sidebar-preview {
+    display:inline-block;
+    float:left;
+}
+.sunset-sidebar-preview { width:300px; background-color:#1f1f1f; color:white; padding:20px; text-align:center; margin-right:20px;}
+.sunset-sidebar {display:block; text-align:center;}
+h3.sunset-username,
+h2.sunset-description {
+    font-weight:100;
+    color:#fff;
+}
+h3.sunset-username {
+    font-size:18px;
+    margin-bottom:8px;
+}
+h2.sunset-description {
+    margin-top:0px;
+    font-size:13px;
+}
+h1.sunset-username {font-size:24px; margin:0 0 10px; }
+.profile-picture {
+    height:130px;
+    width:130px;
+    margin:0 auto;
+    background-position: center;
+    background-size:cover;
+    border-radius: 50%;
+}
